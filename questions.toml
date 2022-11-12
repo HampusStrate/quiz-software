@@ -55,11 +55,6 @@ alternatives = [
 ]
 
 [[easy.questions]]
-question = "How can you run a Python script named quiz.py"
-answers = ["python quiz.py", "python -m quiz"]
-alternatives = ["python quiz", "python -m quiz.py"]
-
-[[easy.questions]]
 question = "What is the diffrent between and 'UL' and 'OL' in HTML?"
 answers = [
     "UL is an unorderd list and OL is an orderd list",
@@ -79,6 +74,15 @@ alternatives = [
     "3.9", 
     "3.10", 
     "3.12"
+]
+
+[[normal.questions]]
+question = "Where do you deploy your Python code?"
+answers = ["Heroku"]
+alternatives = [
+    "GitLab", 
+    "GitHub", 
+    "GitPod"
 ]
 
 [hard]
